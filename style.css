@@ -1,0 +1,98 @@
+body {
+    background: rgb(190, 255, 225);
+    line-height: 150%;
+    font-family: Veranda, sans-serif;
+    text-align: center;
+    
+  }
+  
+  h1 {
+    font-family: Veranda, sans-serif;
+    color: rgb(0, 155, 235);
+    font-size: 3em;
+    text-align: center;
+  }
+  
+  #scrolly {
+    background: rgb(101, 204, 255);
+    position: -webkit-sticky;
+    position: sticky;
+    top: -2%;
+      height: 11em;
+      color: white;
+      margin-left: -2%;
+      margin-right: -2%;
+      overflow: hidden;
+  
+  }
+  
+  #scrollyTitle{
+    font-family: Veranda, sans-serif;
+    font-size: 24px;
+  }
+
+  #Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #ValueTableTitle {
+    font-family: Veranda, sans-serif;
+    color: rgb(0, 155, 235);
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  table {
+    border: 0.15em solid black;
+    border-collapse: collapse;
+    width: 75%;
+    font-size: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+  }
+  
+  td {
+    border: 0.15em solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+  }
+  
+  th {
+    border: 0.15em solid black;
+    background-color: rgba(130, 240, 255, 10);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+  
+  }
+  
+  
+  
+  
+  
+  #smoll {
+      width: 100px;
+  }
+  
+  .defaultText {
+    font-size: 1.25em;
+   color: rgb(0, 155, 235);
+  }
+ 
+  a:link {
+    color: rgb(235, 0, 39);
+  }
+
+  a:hover {
+    color: rgb(0, 155, 235);
+  }
