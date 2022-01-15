@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <title>EduBiome</title>
-    <link href='style.css' rel='stylesheet'>
-    <link rel="shortcut icon" type="image/png" href="Images\EduBiome_Logo.png"/>
-  </head>
+<head>
+  <title>EduBiome</title>
+  <link href='style.css' rel='stylesheet'>
+  <link rel="shortcut icon" type="image/png" href="Images\EduBiome_Logo.png" />
+</head>
 
-  <body>
-    <div id="scrolly">
+<body>
+  <div id="scrolly">
 
-      <img id="smoll" alt="Logo" src="Images\EduBiome_Logo.png">
+    <img id="smoll" alt="Logo" src="Images\EduBiome_Logo.png">
 
-      <p id = "scrollyTitle" class="defaultText">
-        EduBiome
-      </p>
-      
-    </div>
-<div id = "welcome">
+    <p id="scrollyTitle" class="defaultText">
+      EduBiome
+    </p>
+
+  </div>
+
+  <div id="welcome">
     <h1>
       Welcome to EduBiome
     </h1>
   </div>
 
-    <img id="Logo" alt="Logo" src="Images\EduBiome_Logo.png">
-    <p class = "defaultText">A learning hub for the most curious of students</p>
-    
-    <h2 id="ValueTableTitle">What EduBiome stands for</h2>
+  <img id="Logo" alt="Logo" src="Images\EduBiome_Logo.png">
+  <script>
+    const logo = document.getElementById("Logo")
+    logo.addEventListener("click", () => {
+      alert("test")
+    })
+  </script>
+  <p class="defaultText">A learning hub for the most curious of students</p>
 
-    <div id = "Value_Table">
+  <h2 id="ValueTableTitle">What EduBiome stands for</h2>
+
+  <div id="Value_Table">
     <table>
       <caption></caption>
       <tr>
@@ -49,29 +56,29 @@
       </tr>
       <tr>
         <td>Open Source</td>
-        <td> <a class = "link" href="https://github.com/BrandonTheBusyBeaver117/EduBiome" target = "_blank">Yes</a> </td>
+        <td> <a class="link" href="https://github.com/BrandonTheBusyBeaver117/EduBiome" target="_blank">Yes</a> </td>
       </tr>
     </table>
   </div>
 
-    <div id="useful_Links">
+  <div id="useful_Links">
 
-      <p class = "defaultText">
-        Algebra 1
-      </p>
+    <p class="defaultText">
+      Algebra 1
+    </p>
 
-      <p class = "defaultText">
-        Geometry
-      </p>
+    <p class="defaultText">
+      Geometry
+    </p>
 
-      <p class = "defaultText">
-        Introductory Physics
-      </p>
+    <p class="defaultText">
+      Introductory Physics
+    </p>
 
-    </div>
+  </div>
 
 
-  </body>
+</body>
 
 
 </html>
