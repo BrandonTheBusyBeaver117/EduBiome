@@ -38,6 +38,7 @@ body {
   }
   
   #ValueTableTitle {
+   
     font-family: Veranda, sans-serif;
     color: rgb(0, 155, 235);
     text-decoration: underline;
@@ -96,3 +97,32 @@ body {
   a:hover {
     color: rgb(0, 155, 235);
   }
+
+
+#UsefulLinks {
+background-color: red;
+width:980px;
+    margin:auto; 
+    height:auto; 
+    overflow: auto;
+    padding: 10px;
+width: 100%
+}
+
+
+#AlgebraButton {
+  
+  float:left;
+  width: 30%;
+}
+
+#GeometryButton {
+  float:left;
+  width: 30%;
+}
+
+#PhysicsButton {
+  float:left;
+  width: 30%;
+}
+
