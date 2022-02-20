@@ -1,5 +1,6 @@
 body {
-    background: rgb(190, 255, 225);
+    /*background: rgb(190, 255, 225);*/
+    background: rgb(227, 236, 245);
     line-height: 150%;
     font-family: Veranda, sans-serif;
     text-align: center;
@@ -14,7 +15,8 @@ body {
   }
   
   #scrolly {
-    background: rgb(101, 204, 255);
+    /*background: rgb(101, 204, 255);*/
+    background: rgb(156, 222, 255);
     position: -webkit-sticky;
     position: sticky;
     top: -2%;
@@ -100,7 +102,7 @@ body {
 
 
 #UsefulLinks {
-background-color: red;
+/*background-color: red;*/
 width:980px;
     margin:auto; 
     height:auto; 
